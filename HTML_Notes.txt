@@ -1,0 +1,12 @@
+Remember that in HTML the <p> always creates some space between the next <p> element.
+
+We can create links to travel to different sections on the same page using <section id="xyz"> and
+then using a semantic(giving clear idea about the element) element like <nav> -> <a href="#xyz">
+
+<target="_blank"> : will open in a new tab
+
+<href="/"> : will take to the root page
+
+title="xyz" will show xyz when we hover over the targeted element
+
+The end of browser page below which we can't see anything is called Fold.

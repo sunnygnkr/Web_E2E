@@ -1,0 +1,11 @@
+Alt+Z : Toggle word wrap
+Ctrl+X : Cut line 
+Ctrl+C : Copy line 
+Alt+ ↑ / ↓ : Move line up/down
+Shift+Alt + ↓ / ↑ : Copy line up/down
+Ctrl+Shift+K : Delete line
+Alt+ ← / → : Go back / forward
+Ctrl+F : Find
+Ctrl+H : Replace
+Ctrl+L : Select current line
+Ctrl+F2 : Select all occurrences of current word
