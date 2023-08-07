@@ -1,4 +1,15 @@
-Remember that in HTML the <p> always creates some space between the next <p> element.
+Block-level elements start on a new line and take up the full width available, 
+pushing any following elements to the next line they are <div>, <p>, <h1> to <h6>, <ul>, <ol>, <li>,
+<table>, <form>, etc.
+
+Inline elements do not start on a new line and only take up as much width as necessary for their
+content. They flow within the text and do not create a new line they are <span>, <a>, <strong>, 
+<em>, <img>, <br>, <input>, etc.
+
+In HTML, semantic elements are special tags that provide meaning to the content within them. Instead of using non-semantic elements like <div> or <span> for everything, semantic elements should be used whenever they match the meaning of the content they contain.
+Here are some examples of semantic elements in HTML:
+<header>: Represents the header of a section or a page. Typically contains a logo, navigation menu, or other introductory content.
+<nav>: Defines a navigation menu. It is used to wrap a set of navigation links.
 
 We can create links to travel to different sections on the same page using <section id="xyz"> and
 then using a semantic(giving clear idea about the element) element like <nav> -> <a href="#xyz">
@@ -10,3 +21,9 @@ then using a semantic(giving clear idea about the element) element like <nav> ->
 title="xyz" will show xyz when we hover over the targeted element
 
 The end of browser page below which we can't see anything is called Fold.
+
+In addition to these two primary categories, there are also "inline-block" elements. An inline-block
+element behaves like an inline element (occupying only as much space as necessary) but can have a 
+width and height set, and other block-level properties applied to it.
+Example:
+<span style="display: inline-block; width: 100px; height: 50px; background-color:white />

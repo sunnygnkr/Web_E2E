@@ -1,4 +1,5 @@
 Alt+Z : Toggle word wrap
+Alt+Shift+F : Format code
 Ctrl+X : Cut line 
 Ctrl+C : Copy line 
 Alt+ ↑ / ↓ : Move line up/down

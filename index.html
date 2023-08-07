@@ -11,91 +11,94 @@
 </head>
 
 <body>
-  <h1>Goals for the year</h1>
+  <header>
+    <h1>Goals for the year</h1>
 
-  <nav>
-    <ul>
-      <li>
-        <a href="#path">Path to learning Web Development</a>
-      </li>
-      <li>
-        <a href="#html">HTML tips and tricks</a>
-      </li>
-      <li>
-        <a href="#destination">Places for travelling</a>
-      </li>
-    </ul>
-  </nav>
+    <nav aria-label="primary-navigation">
+      <ul>
+        <li>
+          <a href="#path">Path to learning Web Development</a>
+        </li>
+        <li>
+          <a href="#html">HTML tips and tricks</a>
+        </li>
+        <li>
+          <a href="#vacation">Places for travelling</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
   <hr />
   <!--Horizontal rule/line-->
 
-  <section id="path">
-    <h3>My Daily Schedule</h3>
-    <div>
-      <p>
-        This is how I am planning to learn Web Dev:
-        <br /><!--Stands for break/line break-->
-        1) we will first start with HTML course.
-        <br />
-        2) Then we will continue with CSS. <br />
-        3) And finally we will perfect JS.
-      </p>
-    </div>
-  </section>
-
-  <hr />
-
-  <section id="html">
-    <h2>I am starting to learn html</h2>
-    <p>
-      This is my first web page <em>that I am starting from scratch,</em> the
-      documentation for which is available on
-      <abbr title="Mozilla Developer Network">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN</a></abbr>
-    </p>
-    <p>
-      &nbsp;&nbsp;Lets just say it is a organised schedule that
-      <strong>I don't to break at any cost</strong>
-    </p>
-  </section>
-  <hr />
-  <!--Horizontal rule/line-->
-
-  <section id="destination">
-    <h4>Few places yet to be visited in my wishlist:</h4>
-
-    <address>
-      <ol>
-        <li>Gudhalli</li>
-        <li>Jog falls</li>
-        <li>Dudhsagar</li>
-      </ol>
-        <div>
-        <img src="images/DudSagar.jpg" alt="Dudhsagar falls" width="500" height="400" />
-        </div>
-    </address>
+  <main>
+    <section id="path">
+      <h3>My Daily Schedule</h3>
+      <div>
+        <p>
+          This is how I am planning to learn Web Dev:
+          <br /><!--Stands for break/line break-->
+          1) we will first start with HTML course.
+          <br />
+          2) Then we will continue with CSS. <br />
+          3) And finally we will perfect JS.
+        </p>
+      </div>
+    </section>
 
     <hr />
 
-    <h4>Places not be visited:</h4>
+    <article id="html">
+      <h2>I am starting to learn html</h2>
+      <p>
+        This is my first web page <em>that I am starting from scratch,</em> the
+        documentation for which is available on
+        <abbr title="Mozilla Developer Network">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN</a></abbr>
+      </p>
+      <p>
+        &nbsp;&nbsp;Lets just say it is a organised schedule that
+        <strong>I don't to break at any cost</strong>
+      </p>
+    </article>
+    <hr />
+    <!--Horizontal rule/line-->
 
-    <address>
-      <ul>
-        <li>Pakistan</li>
-        <li>Peru</li>
-      </ul>
+    <article id="vacation">
+      <h4>Few places yet to be visited in my wishlist:</h4>
+
+      <address>
+        <ol>
+          <li>Gudhalli</li>
+          <li>Jog falls</li>
+          <li>Dudhsagar</li>
+        </ol>
         <div>
-        <img src="images/Peru.jpg" alt="Peru" loading="lazy" width="550" height="300" /> <!--lazy attribute will load the image
+          <img src="images/DudSagar.jpg" alt="Dudhsagar falls" width="500" height="400" />
+        </div>
+      </address>
+
+      <hr />
+
+      <h4>Places not be visited:</h4>
+
+      <address>
+        <ul>
+          <li>Pakistan</li>
+          <li>Peru</li>
+        </ul>
+        <div>
+          <img src="images/Peru.jpg" alt="Peru" loading="lazy" width="550" height="300" /> <!--lazy attribute will load the image
           only when the browser is about to display the image on screen -->
         </div>
-    </address>
+      </address>
 
-    <hr />
+      <hr />
 
-    <h4>Places that are out of my budget:</h4>
+      <h4>Places that are out of my budget:</h4>
 
-    
+
       <dl>
         <!--Descriptive list-->
 
@@ -106,9 +109,9 @@
       </dl>
       <figure>
         <img src="images/France.jpg" alt="Eiffel tower" />
-        </figure>
-        <br><br>
-        
+      </figure>
+      <br><br>
+
       <dl>
         <dt>South Africa</dt>
         <dd>
@@ -118,7 +121,7 @@
 
       </dl>
 
-        <figure>
+      <figure>
         <img src="images/SA.jpg" alt="Africa at its best" />
 
         <figcaption>It's time for Africa </figcaption>
@@ -129,20 +132,30 @@
         <dd>
           Things I have heard about South Africa:
           <address>
-            <strong>For all its problems, I found South Africa a beautiful country, interesting, and inspiring.</strong><br>
-            &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; David Harewood
+            <strong>For all its problems, I found South Africa a beautiful country, interesting, and
+              inspiring.</strong><br>
+            &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+            &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; David Harewood
           </address>
         </dd>
       </dl>
-      
-  </section>
+
+    </article>
+  </main>
+
   <hr />
 
-  &lt;&lt; &copy; <a href="about.html">Sunny Gaonkar</a> &gt;&gt;
+  <footer>
 
-  <p>
-    <a href="#">Navigate to the top</a>
-  </p>
+    <p>
+      &lt;&lt; &copy; <a href="about.html">Sunny Gaonkar</a> &gt;&gt;
+    </p>
+
+    <p>
+      <a href="#">Navigate to the top</a>
+    </p>
+
+  </footer>
 
 </body>
 
